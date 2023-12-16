@@ -180,8 +180,8 @@ namespace Vobornik
                 a2 = a3;
             }
 
-
-            Console.ReadLine();
+            Console.WriteLine("\nStiskni jakoukoliv klavesu pro ukonceni...");
+            Console.ReadKey();
 
 
         }
