@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_1_Zakladni_prikazy",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_2_Posloupnosti", "CSharp_2_Posloupnosti\CSharp_2_Posloupnosti.csproj", "{B651398F-CCFE-4B01-A7C9-E9174829FD68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_3_Matice", "CSharp_3_Matice\CSharp_3_Matice.csproj", "{E39D6B41-65BC-4713-95C0-741DB4B3B27B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B651398F-CCFE-4B01-A7C9-E9174829FD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B651398F-CCFE-4B01-A7C9-E9174829FD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B651398F-CCFE-4B01-A7C9-E9174829FD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
