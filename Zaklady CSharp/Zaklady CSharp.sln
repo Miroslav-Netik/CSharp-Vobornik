@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_2_Posloupnosti", "CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_3_Matice", "CSharp_3_Matice\CSharp_3_Matice.csproj", "{E39D6B41-65BC-4713-95C0-741DB4B3B27B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_4_Ctvercove_matice", "CSharp_4_Ctvercove_matice\CSharp_4_Ctvercove_matice.csproj", "{19069F8A-AAD6-4677-A396-0BD1CD51FFB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39D6B41-65BC-4713-95C0-741DB4B3B27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19069F8A-AAD6-4677-A396-0BD1CD51FFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19069F8A-AAD6-4677-A396-0BD1CD51FFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19069F8A-AAD6-4677-A396-0BD1CD51FFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19069F8A-AAD6-4677-A396-0BD1CD51FFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

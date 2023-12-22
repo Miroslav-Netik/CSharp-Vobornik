@@ -133,7 +133,7 @@ namespace CSharp_3_Matice
             Console.WriteLine("Nejmenších je {0}", pocetMinim);
 
             // Průměr hodnot na rtém řádku
-            Console.Write("Zadej počet řádků (0 až {0}): ", a.GetLength(0) - 1);
+            Console.Write("Zadej číslo indexu řádku pro výpočet průměru jeho hodnot (0 až {0}): ", a.GetLength(0) - 1);
             int r = int.Parse(Console.ReadLine());
             int soucetR = 0;
             for (int j = 0; j < a.GetLength(1); j++)
@@ -145,7 +145,7 @@ namespace CSharp_3_Matice
             for (int j = 0; j < a.GetLength(1); j++)
             {
                 int p = a[0, j];
-                a[0,j] = a[a.GetLength(0) - 1, j];
+                a[0, j] = a[a.GetLength(0) - 1, j];
                 a[a.GetLength(0) - 1, j] = p;
             }
             Console.WriteLine("\nMatice se zaměněnými řádky:");
@@ -179,8 +179,36 @@ namespace CSharp_3_Matice
             }
             Console.WriteLine();
 
+            // Součet dvou matic (C = A + B)
+            var b = new int[a.GetLength(0), a.GetLength(1)];
+            for (int i = 0; i < b.GetLength(0); i++)
+                for (int j = 0; j < b.GetLength(1); j++)
+                    b[i, j] = rnd.Next(10);
+
+            var c = new int[a.GetLength(0), a.GetLength(1)];
+            for (int i = 0; i < c.GetLength(0); i++)
+                for (int j = 0; j < c.GetLength(1); j++)
+                    c[i, j] = a[i, j] + b[i, j];
+
+            VypisMatici(a); VypisMatici(b); VypisMatici(c);
+
+            //  Matematický součin matic (C = A * B)
+            var d = new int[a.GetLength(0), a.GetLength(1)];
+            for (int i = 0; i < d.GetLength(0); i++)
+                for (int j = 0; j < d.GetLength(1); j++)
+                    d[i, j] += a[i, j] * b[i, j];   // Proč je tam "+=" ? 
+
+            VypisMatici(d);
+
+            //  Ukončovací výpis
+            Console.WriteLine("\nPro ukončení stiskni jakoukoliv klávesu...");
             Console.ReadKey();
         }
+
+        //  *****************************
+        //          Níže metody
+        //  *****************************
+
         static void VypisMatici(int[,] a)
         {
             // Vypsání matice
